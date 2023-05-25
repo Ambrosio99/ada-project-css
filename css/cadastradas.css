@@ -1,0 +1,58 @@
+.container-cadastradas {
+  display: grid;
+  margin: 0 auto;
+  padding-top: 50px;
+  justify-items: center;
+  gap: 20px;
+}
+.titulo-cadastradas {
+  font-weight: 500;
+  font-size: 4rem;
+  line-height: 75px;
+}
+.content-cadastradas {
+  display: grid;
+  gap: 40px;
+  max-width: 800px;
+  border: 2px solid rgba(0, 0, 0, 0.118);
+  border-radius: 10px;
+  padding: 40px;
+}
+.entidades {
+  display: grid;
+  gap: 25px;
+  padding: 0 10px;
+}
+.entidades li {
+  display: flex;
+  gap: 40px;
+  justify-content: space-between;
+  align-items: center;
+}
+.tit-ent {
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 36px;
+}
+.link-ent {
+  font-weight: 500;
+  font-size: 1.375rem;
+  line-height: 33px;
+  color: #35e6e9;
+  border: 1px solid #35e6e9;
+  border-radius: 10px;
+  padding: 4px 30px;
+}
+.verdados {
+  font-weight: 600;
+  font-size: 1.2rem;
+  border-bottom: 2px solid #ff5678;
+}
+
+.entidades li {
+  padding-bottom: 25px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.15);
+}
+.entidades li:last-child {
+  border: none;
+}

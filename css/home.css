@@ -1,0 +1,91 @@
+.weform {
+  font-family: "Roboto", "Poppins", monospace, sans-serif;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 75px;
+}
+
+/* Home */
+.container-main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-family: "Poppins", monospace, sans-serif;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  margin: 80px auto;
+}
+.container-home {
+  display: grid;
+  gap: 40px;
+  max-width: 600px;
+  padding: 50px;
+  border: 2px solid rgba(0, 0, 0, 0.118);
+  border-radius: 10px;
+}
+.titulo-home {
+  font-weight: 500;
+  font-size: 2.25rem;
+  line-height: 42px;
+  text-align: start;
+  place-self: start;
+  position: relative;
+}
+.bg-botao-blue {
+  display: grid;
+  width: 100%;
+  background-color: #35e6e9;
+  justify-items: center;
+  align-items: center;
+  padding: 8px 0;
+  border-radius: 10px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.bg-botao-pink {
+  display: grid;
+  width: 100%;
+  background-color: #ff5678;
+  justify-items: center;
+  align-items: center;
+  padding: 8px 0;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.botao-home {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: white;
+  border-bottom: 3px solid rgba(255, 255, 255, 0);
+  transition: 0.2s;
+}
+.botao-home:hover {
+  border-bottom: 3px solid rgba(255, 255, 255, 0.853);
+}
+.end {
+  display: grid;
+  justify-items: center;
+  margin-top: 20px;
+}
+.end p {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+}
+.end a {
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 1.68rem;
+  color: black;
+  text-decoration: underline;
+}
+.end a:hover {
+  font-size: 1.15rem;
+}
+
+.container-img {
+  display: grid;
+  justify-items: center;
+  gap: 50px;
+}

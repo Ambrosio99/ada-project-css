@@ -1,0 +1,13 @@
+@import "./css/reset.css";
+@import "./css/home.css";
+@import "./css/cadastro.css";
+@import "./css/cadastradas.css";
+@import "./css/atuacao.css";
+
+/* Global */
+* {
+  font-family: "Poppins", sans-serif, monospace;
+}
+.pink {
+  color: #ff5678;
+}
